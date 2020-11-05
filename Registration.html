@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title></title>
+    <link href="C:\Users\Nigar\Style.css" rel="stylesheet"  type="text/css"/>
+
+
+</head>
+
+<body>
+
+    <div class="registration">
+        <form name="myForm" >
+
+
+
+            <h4>Registration</h4>
+            <div style="display:flex">
+                <div style="display:block">
+                    <label>First Name</label>
+                    <input type="text" placeholder="" name="name" />
+                  
+
+                </div>
+                <div style="display:block">
+                    <label>Last Name</label>
+                    <input type="text" placeholder="" name="surname" />
+                    
+                </div>
+            </div>
+            <div style="display:flex">
+                <div style="display:block">
+                    <label>Birthday</label>
+                    <input type="date" placeholder="" name="date" />
+                </div>
+                <div style="display:block">
+                    <label></label>
+                    <input type="radio" id="male" name="gender" value="male" style="margin-right:0px; border:none;margin:0px 0px" checked>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" style="margin-right:0px; border:none;margin:0px 0px">
+                    <label for="female">Female</label>
+
+                </div>
+            </div>
+            <div style="display:flex">
+                <div style="display:block">
+                    <label>Email</label>
+                    <input type="text" placeholder="" name="email" />
+                   
+                </div>
+                <div style="display:block">
+                    <label>Phone number</label>
+                    <input type="text" placeholder="" name="phonenumber" />
+                    
+                </div>
+            </div>
+            <div style="display:block">
+                <label>Subject</label>
+                <select name="subject">
+                   
+                    <option value="1">Choose Option</option>
+
+                </select>
+            </div>
+            <div style="display:block">
+                <button class="button button4" onclick="return validateForm()">Submit</button>
+                <p id="warning" style="color:red"></p>
+
+            </div>
+
+        </form>
+    </div>
+
+    <script src="C:\Users\Nigar\Style.js"></script>
+</body>
+</html>

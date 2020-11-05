@@ -1,0 +1,65 @@
+body {
+    margin-top: 0px;
+    background-image: -webkit-gradient(linear, left bottom, right top, from(#FC2C79), to(#6c4079));
+    font-family: 'Arial','Arial',Arial,'Trebuchet MS',sans-serif
+}
+.registration {
+    width: 500px;
+    height: 400px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 5px;
+    padding:20px;
+    display:inline-block;
+  
+}
+.h4 {
+        text-align: left;
+        margin-bottom: 5px;
+    }
+.registration input {
+    display: block;
+    padding: 5px 10px;
+    width: 90%;
+    border: 1px solid lightgrey;
+    margin: 5px 0px;
+    border-radius: 5px;
+    margin-right: 60px;
+    background-color: transparent;
+    box-shadow: 0px 0px 2px lightgrey;
+}
+.registration select {
+    display: block;
+    padding: 5px 10px;
+    width: 97%;
+    border: 1px solid lightgrey;
+    margin: 5px 0px;
+    border-radius: 5px;
+ 
+    background-color: transparent;
+    box-shadow: 0px 0px 2px lightgrey;
+}
+.label {
+    display: block
+}
+
+    .registration button {
+    background-color: cornflowerblue; 
+    border: none;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button4 {
+    border-radius: 5px;
+}
